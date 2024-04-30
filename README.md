@@ -4,7 +4,7 @@ A simple web extension that allows the highlighting of text on webpages with a s
 
 It also come with a special feature called **Auto-Highlight**. It employs LLMs to
 
-## Production Set Up
+## How to Use
 
 Steps to load the web-extension in the browser:
 
