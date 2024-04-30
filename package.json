@@ -1,0 +1,25 @@
+{
+  "name": "highlighter",
+  "version": "4.0.5",
+  "description": "Chrome extension to highlight text on websites with a simple right-click or keyboard shortcut. Saves highlights on your device.",
+  "repository": "github:jeromepl/highlighter",
+  "main": "manifest.json",
+  "license": "MIT",
+  "devDependencies": {
+    "archiver": "^5.3.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.26.0",
+    "readline-sync": "^1.4.10",
+    "replace-in-file": "^6.2.0"
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "release": "node scripts/release.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.6.8"
+  }
+}
